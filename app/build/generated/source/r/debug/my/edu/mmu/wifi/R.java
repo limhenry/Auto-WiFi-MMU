@@ -1579,12 +1579,13 @@ containing a value of this type.
         public static final int hello_world=0x7f0a0018;
         public static final int intro=0x7f0a0019;
         public static final int password=0x7f0a001a;
-        public static final int title_activity_fullscreen=0x7f0a001b;
-        public static final int title_activity_home=0x7f0a001c;
-        public static final int title_activity_main=0x7f0a001d;
-        public static final int title_activity_main_activity2=0x7f0a001e;
-        public static final int toast=0x7f0a001f;
-        public static final int username=0x7f0a0020;
+        public static final int signin=0x7f0a001b;
+        public static final int title_activity_fullscreen=0x7f0a001c;
+        public static final int title_activity_home=0x7f0a001d;
+        public static final int title_activity_main=0x7f0a001e;
+        public static final int title_activity_main_activity2=0x7f0a001f;
+        public static final int toast=0x7f0a0020;
+        public static final int username=0x7f0a0021;
     }
     public static final class style {
         /** 

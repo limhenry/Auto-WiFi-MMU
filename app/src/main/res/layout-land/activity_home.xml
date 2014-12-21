@@ -52,7 +52,7 @@
                     android:layout_height="56dp"
                     android:background="#2196F3"
                     android:textColor="#FFFFFF"
-                    android:text="Save and Sign In"
+                    android:text="@string/signin"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:clickable="true"
                     android:layout_toLeftOf="@+id/imageView1"

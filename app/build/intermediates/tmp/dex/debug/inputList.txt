@@ -1,7 +1,7 @@
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/classes/debug
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1c975605691e8684d42680a0e5e38b3e996d2064.jar
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/classes-a1c14c7af9e8a0cd68ee2616894f8331c8345935.jar
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/classes-92c7742893aa9eda23c3a1f0fa344b9b7935c451.jar
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ad8e5c1b18d45d2e1a10350932083a732d4433d2.jar
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/classes-c90476e2c6402c4e3b2c807c369033ca47886065.jar
-/home/henrylim/AndroidstudioProjects/Auto-WiFi-MMU-master/app/build/intermediates/pre-dexed/debug/classes-f697230583a49f10e2a478249fc393e6c757f4e4.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/classes/debug
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-1c975605691e8684d42680a0e5e38b3e996d2064.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/classes-59c095e9324d078387c34c1b629b56b94d0c0f53.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/classes-dbbe3a12dd9ae4a4e2b26055d469102da03b57ed.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c9e2cf3febd7668a743724d2909775d172635ef5.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/classes-ddfc84d5bdbdcac18189c17afc32540a11edb824.jar
+/home/henrylim/Documents/Android/Auto-WiFi-MMU-Android/app/build/intermediates/pre-dexed/debug/classes-51a28bd75b3154dbe56ce682af3aba56b07ac578.jar

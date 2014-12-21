@@ -48,7 +48,8 @@
                 android:focusable="true"
                 android:nestedScrollingEnabled="false"
                 android:layout_alignParentStart="false"
-                android:padding="12dp" />
+                android:padding="12dp"
+                android:layout_marginTop="4dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,8 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#EEEEEE"
-        android:paddingRight="24dp">
+        android:background="#EEEEEE">
 
         <com.andexert.library.RippleView
             android:id="@+id/signin"
@@ -84,20 +84,23 @@
             ripple:rv_type="simpleRipple"
             ripple:rv_color="#BDBDBD"
             android:layout_gravity="right"
-            android:gravity="right">
+            android:background="#EEEEEE"
+            android:gravity="center_vertical"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp">
 
             <Button
                 android:id="@+id/buttonConnect"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#EEEEEE"
                 android:textColor="#0277BD"
-                android:text="Save and Sign In"
+                android:text="@string/signin"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:gravity="center_vertical"
+                android:gravity="center_vertical|center_horizontal"
                 android:clickable="true"
                 android:layout_gravity="bottom|right"
                 android:singleLine="false"
+                android:background="#EEEEEE"
                 android:minHeight="48dp" />
         </com.andexert.library.RippleView>
 

@@ -1,4 +1,4 @@
-Auto WiFi MMU
+Auto WiFi MMU - test
 =============
 
 The "Auto WiFi MMU" Android App is an Android application for students and staffs of Multimedia University, 

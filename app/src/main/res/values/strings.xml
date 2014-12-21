@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auto WiFi MMU</string>
+    <string name="greeting">Enter your username and password to enable auto sign-in to MMU WiFi.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="toast">Toast (notification) from background service</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="intro">Auto connect to the MMU Wireless Network with Wi-Fi SSID: "MMU" in Multimedia University, Malaysia.</string>
+    <string name="about"><b>Credits</b> \nA community project for Hackerspace MMU
+\n \n * Aarief for discovering and testing the bugs about 3G data
+\n * Raymond Choo for the idea
+\n * Victor Law and others for the logo
+\n * Henry Lim for the new design in version 3.0</string>
+    <string name="changelog"><b>Change Log</b> \n \nVersion 3.0
+\n * Redesign the whole UI.
+\n * Introduce Material Design to this app.
+\n\nVersion 2.3 \n * Fix an issue in Android 4.2 Jelly Bean that getSSID() will return the SSID enclosed in quotes
+\n * Change the theme of the application
+\n\nVersion 2.2
+\n * Restarting the service without a valid WiFi connection no longer crash the app
+\n\nVersion 2.1
+\n * No longer try to ping MMU WiFi when not connected to "MMU"
+\n\nVersion 2.0
+\n * Auto WiFi MMU no longer send data via 3G
+\n * Improved checking of connection to MMU WiFi \n\n</string>
+    <string name="abouttitle"><b>Auto WiFi MMU 3.0</b></string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

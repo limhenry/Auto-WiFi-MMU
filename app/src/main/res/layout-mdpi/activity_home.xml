@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="#2196F3">
+
+    <!-- Header aligned to top -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#2196F3"
+        android:gravity="center" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"
+                android:id="@+id/textView"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="36dp" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/info"
+                android:layout_alignParentEnd="true"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:onClick="startSetting"
+                android:gravity="top|right"
+                android:baselineAlignBottom="false"
+                android:cropToPadding="true"
+                android:layout_gravity="top|right"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:nestedScrollingEnabled="false"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="16dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <!-- Footer aligned to bottom -->
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|right"
+        android:layout_alignParentRight="false"
+        android:background="#EEEEEE">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            ripple:rv_centered="false"
+            ripple:rv_zoomDuration="100"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_color="#BDBDBD"
+            android:layout_gravity="right"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/buttonConnect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#EEEEEE"
+                android:textColor="#0277BD"
+                android:text="Save and Sign In"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:layout_gravity="bottom|right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp" />
+        </com.andexert.library.RippleView>
+
+    </RelativeLayout>
+    <!-- Scrollable Item below header and above footer -->
+    <ScrollView
+        android:id="@+id/scrollableContents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header"
+        android:background="#EEEEEE">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/greeting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000000"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff575757"
+                android:paddingTop="12dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/editTextUsername" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff575757"
+                android:paddingTop="12dp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginBottom="4dp" />
+
+            <com.andexert.library.RippleView
+                android:id="@+id/about"
+                ripple:rv_centered="false"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                ripple:rv_zoomDuration="100"
+                ripple:rv_color="#BDBDBD"
+                ripple:rv_type="simpleRipple"
+                android:padding="5dp"
+                android:layout_gravity="left">
+
+                <CheckBox
+                    android:id="@+id/checkBoxToast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/toast"
+                    android:gravity="center_vertical"
+                    android:textColor="#ff000000" />
+            </com.andexert.library.RippleView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
